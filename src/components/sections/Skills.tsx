@@ -22,16 +22,16 @@ const groups: { title: string; icon: typeof Code2; bars: SkillBar[] }[] = [
     bars: [
       { name: 'VS Code'},
       { name: 'Git'},
-      { name: 'GitHub', value: 60 },
-      { name: 'Postman', value: 55 },
+      { name: 'GitHub' },
+      { name: 'Postman'},
     ],
   },
   {
     title: 'Currently learning',
     icon: GraduationCap,
     bars: [
-      { name: 'DSA', value: 45 },
-      { name: 'Full-stack development', value: 40 },
+      { name: 'DSA'},
+      { name: 'Full-stack development'},
     ],
   },
 ];
