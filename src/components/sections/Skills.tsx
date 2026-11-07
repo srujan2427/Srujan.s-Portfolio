@@ -20,7 +20,7 @@ const groups: { title: string; icon: typeof Code2; bars: SkillBar[] }[] = [
     title: 'Tools',
     icon: Wrench,
     bars: [
-      { name: 'VS Code', value: 75 },
+      { name: 'VS Code' },
       { name: 'Git', value: 60 },
       { name: 'GitHub', value: 60 },
       { name: 'Postman', value: 55 },
@@ -41,7 +41,7 @@ function Bar({ skill, animate }: { skill: SkillBar; animate: boolean }) {
     <div>
       <div className="mb-1.5 flex items-center justify-between text-sm">
         <span className="font-medium text-[var(--text)]">{skill.name}</span>
-        <span className="text-[var(--text-dim)]">{animate ? `${skill.value}%` : ''}</span>
+        
       </div>
       <div className="h-2.5 w-full overflow-hidden rounded-full" style={{ background: 'rgba(127,127,127,0.18)' }}>
         <div
