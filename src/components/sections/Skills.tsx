@@ -47,7 +47,7 @@ function Bar({ skill, animate }: { skill: SkillBar; animate: boolean }) {
         <div
           className="h-full rounded-full"
           style={{
-            width: animate ? `${skill.value}%` : '0%',
+            width: animate ? `${skill.value}%` : '100%',
             background: 'linear-gradient(90deg, var(--accent), var(--ember-soft))',
             transition: 'width 1.1s cubic-bezier(0.22,1,0.36,1)',
             boxShadow: '0 0 12px var(--glow)',
