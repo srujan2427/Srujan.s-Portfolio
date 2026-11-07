@@ -43,7 +43,7 @@ function Bar({ skill, animate }: { skill: SkillBar; animate: boolean }) {
         <span className="font-medium text-[var(--text)]">{skill.name}</span>
         
       </div>
-      <div className="h-0.5 w-full overflow-hidden rounded-full" style={{ background: 'rgba(127,127,127,0.18)' }}>
+      <div className="h-0.4 w-full overflow-hidden rounded-full" style={{ background: 'rgba(127,127,127,0.18)' }}>
         <div
           className="h-full rounded-full"
           style={{
