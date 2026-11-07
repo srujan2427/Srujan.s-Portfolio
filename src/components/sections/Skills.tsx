@@ -98,7 +98,7 @@ export default function Skills() {
         </div>
 
         <p className="mt-6 text-xs text-[var(--text-dim)]">
-          Progress shown as self-assessed learning stage, not an official proficiency rating.
+          Learning by building, one project at a time.
         </p>
       </div>
     </section>
