@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: 'Veyloras',
-    desc: 'STILL BEING BUILT.........................                                             Veyloras is an AI-powered productivity platform that helps users manage deadlines, organize daily tasks, plan schedules, and streamline their workflow.',
+    desc: 'STILL BEING BUILT.........................                                             Veyloras is an     AI-powered productivity platform that helps users manage deadlines, organize daily tasks, plan schedules, and streamline their workflow.',
     link: null,
     icon: Lock,
     status: 'In Progress' as const,
