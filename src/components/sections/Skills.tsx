@@ -11,17 +11,17 @@ const groups: { title: string; icon: typeof Code2; bars: SkillBar[] }[] = [
     title: 'Languages',
     icon: Code2,
     bars: [
-      { name: 'Python', value: 70 },
-      { name: 'Java', value: 60 },
-      { name: 'C++', value: 55 },
+      { name: 'Python' },
+      { name: 'Java'},
+      { name: 'C++'},
     ],
   },
   {
     title: 'Tools',
     icon: Wrench,
     bars: [
-      { name: 'VS Code' },
-      { name: 'Git', value: 60 },
+      { name: 'VS Code'},
+      { name: 'Git'},
       { name: 'GitHub', value: 60 },
       { name: 'Postman', value: 55 },
     ],
