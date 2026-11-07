@@ -20,7 +20,7 @@ const groups: { title: string; icon: typeof Code2; bars: SkillBar[] }[] = [
     title: 'Tools',
     icon: Wrench,
     bars: [
-      { name: 'VS Code', value: 75 },
+      { name: 'VS Code'},
       { name: 'Git', value: 60 },
       { name: 'GitHub', value: 60 },
       { name: 'Postman', value: 55 },
