@@ -8,7 +8,7 @@ const highlights = [
 
 const interests = [
   { icon: Film, label: 'Movies' },
-  { icon: Music, label: 'Listening to songs' },
+  { icon: Music, label: 'Music' },
   { icon: Gamepad2, label: 'Online games' },
   { icon: PlaneTakeoff, label: 'Travelling' },
 ];
